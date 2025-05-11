@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch</title>
+    <script
+      src="https://kit.fontawesome.com/eedce63c9b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-pink-100">
+    <div
+      class="w-[500px] h-[300px] bg-gray-500 mx-auto mt-20 border rounded-sm"
+    >
+      <div class="flex justify-center mt-[20%] text-white font-bold text-5xl">
+        <span class="hours">00</span> : <span class="minutes">00</span> :
+        <span class="seconds">00</span>
+      </div>
+      <div
+        class="controls-btn mt-14 flex justify-evenly mx-auto text-white w-[60%] items-center"
+      >
+        <i class="fa-solid fa-stop circle"></i>
+        <i
+          class="fa-solid fa-play circle w-12 h-12 bg-pink-600 border-none outline-none text-2xl"
+        ></i>
+        <i class="fa-solid fa-rotate-left circle"></i>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

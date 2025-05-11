@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .circle {
+    @apply border border-white p-3 rounded-full w-8 h-8 flex justify-center items-center text-xs cursor-pointer;
+  }
+}
